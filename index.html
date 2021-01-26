@@ -1,0 +1,393 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="My First Bootstrap Assignment HTML">
+    <meta name="keywords" content="HTML5, CSS3, bootstrap, Javascript, XML, SSM, Tortoise Farm">
+    <meta name="author" content="Ariff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My First Bootstrap Assignment HTML, Tortoise Farm</title>
+	<body style="background-color:#f5f5f5;">
+ <link rel="stylesheet" href="#">
+	<canvas id="myCanvas" width="200" height="50"></canvas>
+    <!-- compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--fontawesome for social media icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>    
+    </head>
+    <body>
+        <!-- overall container that contains the entire page layout-->
+
+    <div>
+        <div class="container-fluid">
+         <!-- header banner -->
+            <header class="jumbotron text-center">
+                <h1 style="font-family:stencil">HTML 	Assignment 1 :</h1>
+                <h1 style="font-family:forte"><b><i>Tortoise Museum</i></b></h1>             
+            </header>
+        </div>
+
+         <!-- nav menu bar -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="http://orto.sg/">@ORTO</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.turtle-tortoise.com/">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+              </ul>
+              <div id="navbar" class="collapse navbar-collapse">
+                    <form class="navbar-form navbar-right" action="/action_page.php">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </form>
+              </div>
+            </div>
+          </nav>
+
+          <!-- section with 2 column -->
+
+          <div class="container-fluid">
+            <div class="row">
+                <section class="col-xs-12 col-sm-6">
+                    <div style="padding: 10px 10px 10px 10px; width: 80%; border: 2px solid #000000; border-radius: 5px; height: 290px">
+                            <form action="#">
+                                <div class="form-group">
+                                  <label for="email">Email address:</label>
+                                  <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                  <label for="pwd">Password:</label>
+                                  <input type="password" class="form-control" id="pwd">
+                                </div>
+                                <div class="checkbox">
+                                  <label><input type="checkbox"> Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                              </form>
+                    </div>
+                </section>
+                <section class="ol-xs-12 col-sm-6">
+                    <div style="padding: 10px 10px 10px 10px; width: 80%; border: 2px solid #000000; border-radius: 5px; height: 290px;">
+                    <h1>About Myself</h1>
+                    <hr>
+                    <p>Don't we all love technology? It's rapid and changing but we do need to learn, adapt and keep up with technology.
+                        BUT IF YOU CAN'T, let us help you. We offer courses, be it short, long or even full term, where we will guide you.
+                        We will teach you. We will make you IT savvy. I guarantee you that being IT savvy will keep you on the frontier.
+                        You might not realise now. But one day, I know and I hope that you will see what I meant. Technological, financial and personal 
+                        resources and time aspects are basic elements that must be defined before work can commence. Above all, we will be that
+                        shining light to you.
+                    </p>
+                </div>
+                </section>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- youtube iframe -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oZ6asg5nDRM?autoplay=1">
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+        <!-- 3 column div -->
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+                            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
+                            1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
+                            Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-4">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+                            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
+                            1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
+                            Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                        </p>     
+                    </div>               
+                    <div class="col-xs-4">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+                            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
+                            1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
+                            Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+
+        <!-- list group -->
+        <div class="row">
+                <div class="col-md-4 col-xs-12 panel panel-default">
+                    <h3 class="text-left" style="font-family:forte">Operating Hours</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Day</th>                              
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Wednesday to Monday
+                                </td>
+                                <td>
+                                    10:00 - 18:00 hrs
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Tuesdays (closed for maintenance)*
+                                </td>
+                                <td>
+                                    -
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Open on all public holidays
+                                </td>
+                                <td>
+                                    Last Entry @ 17:40 hrs
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-4 col-xs-12 panel panel-default">
+                    <div class="embed-responsive embed-responsive-4by3" >
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6035850212843!2d103.82708921457271!3d1.4138811989688382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1002ce6bd98d%3A0xe172659745dcbee6!2sThe%20Live%20Turtle%20%26%20Tortoise%20Museum!5e0!3m2!1sen!2ssg!4v1611548728299!5m2!1sen!2ssg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+		</iframe>   
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <h3 style="font-family:forte">Check Them Out</h3>
+                    <br>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item" ><i class="fas fa-envelope"></i> enquiries@turtle-tortoise.com</a> 
+                 <!-- to enlarge icon <i class="fas fa-envelope fa-2x"> -->
+                        <a href="#" class="list-group-item" ><i class="fas fa-phone"></i>+65 1800-Turtle-Power-1800</a>
+                        <a href="https://www.facebook.com/pg/turtlemuseumsg/about/?ref=page_internal" class="list-group-item" ><i class="fab fa-facebook"></i> turtlemuseumsg</a>
+                    </div>
+                </div>
+            </div>
+    
+            <hr>
+
+            <!-- thumbnail gallery-->
+             <div class="container-fluid">
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                            <a href="https://www.iss.nus.edu.sg/" >
+                              <img class="img-fluid img-thumbnail" src="https://www.iss.nus.edu.sg/Sitefinity/WebsiteTemplates/ISS/App_Themes/ISS/Images/branding-iss.png" alt="Ariff Yaakop">
+                            </a>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-xs-6">
+                            <a href="contact.html" >
+                              <img class="img-fluid img-thumbnail" src="https://www.iss.nus.edu.sg/Sitefinity/WebsiteTemplates/ISS/App_Themes/ISS/Images/branding-iss.png" alt="Ariff">
+                            </a>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-xs-6">
+                            <a href="about.html" >
+                              <img class="img-fluid img-thumbnail" src="https://www.iss.nus.edu.sg/Sitefinity/WebsiteTemplates/ISS/App_Themes/ISS/Images/branding-iss.png" alt="NUS">
+                            </a>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-xs-6">
+                            <a href="https://www.google.com.sg/" >
+                              <img class="img-fluid img-thumbnail" src="https://www.iss.nus.edu.sg/Sitefinity/WebsiteTemplates/ISS/App_Themes/ISS/Images/branding-iss.png">
+                            </a>
+                          </div>
+
+                </div>
+    
+                <hr>
+
+                <!-- fontawesome social media icon -->
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <ul class="list-inline">
+                            <li>
+                                <a style="color:rgb(30, 30, 32)" href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+                            </li>
+                            <li>
+                                <a style="color:rgb(30, 30, 32)" href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>                               
+                            </li>
+                            <li>
+                                <a style="color:rgb(30, 30, 32)" href="https://www.google.com"><i class="fab fa-google fa-2x"></i></a>                                 
+                            </li>
+                            <li>
+                                <a style="color:rgb(30, 30, 32)" href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>                                    
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <!-- footer -->
+        <footer class="text-center">
+            Copyright &copy; 2021	. Muhammad Ariff Bin Yaakop
+        </footer>
+
+
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<! Button codes from w3schooltemplate *>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<button class="open-button" onclick="openForm()">Ask Me More Leh ~~</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="#" class="form-container">
+    <h1>Need Help?</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+
+    </body>
+    </html>
